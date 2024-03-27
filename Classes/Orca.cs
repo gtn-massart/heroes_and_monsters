@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using heroes_and_monsters.Interfaces;
 
 namespace heroes_and_monsters.Classes
 {
-    internal class Orca : Fighter
+    internal class Orca : IHero
     {
+        public int _stamina { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int _strength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int _health { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
