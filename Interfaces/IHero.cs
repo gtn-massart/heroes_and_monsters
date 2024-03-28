@@ -7,4 +7,6 @@ namespace heroes_and_monsters.Interfaces
         public int _strength { get; set; }
         public int _health { get; set; }
     }
+
+
 }

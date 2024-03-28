@@ -29,9 +29,20 @@ while (true)
 }
 
 Console.WriteLine($"\n{hero}");
+Fighter fighter = new Fighter();
+Dice dice = new Dice();
 
-Console.WriteLine("\nLancez le dé pour définir votre FORCE.");
+Console.WriteLine("\nDéfinissons votre FORCE.");
 // TODO Lancer fonction qui défini la force
+//Console.WriteLine(dice.ThrowDice(dice.DiceSixFaces));
+fighter.GetStrength();
 
-Console.WriteLine("\nLancez le dé pour définir votre ENDURANCE.");
+
+
+Console.WriteLine("\nDéfinissons votre ENDURANCE.");
 // TODO Lancer fonction qui défini la endurance
+fighter.GetStamina();
+
+Console.WriteLine("\nDéfinissons votre VIE.");
+Console.WriteLine(fighter.Health);
+
