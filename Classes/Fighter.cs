@@ -7,6 +7,8 @@ namespace heroes_and_monsters.Classes
         private int _stamina {  get; set; } 
         private int _strength { get; set; }
         private int _health { get; set; }
+        private int _gold { get; set; }
+        private int _leather { get; set; }
 
         // Props
         public int Stamina 
